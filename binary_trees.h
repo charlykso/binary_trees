@@ -4,6 +4,7 @@
 #include <stdlib.h>
 #include <stdarg.h>
 #include <stdio.h>
+#include <stddef.h>
 
 /**
  * struct binary_tree_s - Binary tree node
@@ -37,4 +38,4 @@ size_t binary_tree_height(const binary_tree_t *tree);
 size_t binary_tree_depth(const binary_tree_t *tree);
 size_t binary_tree_size(const binary_tree_t *tree);
 
-#endif __BINARY_TREE_T
+#endif /*__BINARY_TREE_T */
