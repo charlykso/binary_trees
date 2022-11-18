@@ -2,10 +2,11 @@
 
 /**
  * binary_tree_is_root - a function that checks
- * if a given node is a root 
- * 
+ * if a given node is a root
+ *
  * @node: a pointer to the node to check
- * @return - 1 if node is a root, otherwise 0
+ *
+ * Return: 1 if node is a root, otherwise 0
  */
 
 int binary_tree_is_root(const binary_tree_t *node)
@@ -18,5 +19,5 @@ int binary_tree_is_root(const binary_tree_t *node)
 	{
 		return (1);
 	}
-	return (0);	
+	return (0);
 }
